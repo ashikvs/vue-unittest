@@ -30,5 +30,11 @@ npm run lint
 npm run test:unit
 ```
 
+### debugging your unit tests
+```
+node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand
+
+make sure nodeinspector is installed in chrome
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
